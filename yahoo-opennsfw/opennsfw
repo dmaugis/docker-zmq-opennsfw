@@ -1,0 +1,2 @@
+nvidia-docker run -v $(realpath ./input):/input -it yahoo/open_nsfw -e $1
+
